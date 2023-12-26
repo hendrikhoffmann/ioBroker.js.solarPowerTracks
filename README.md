@@ -1,10 +1,9 @@
 # ioBroker.js.solarPowerTracks
-A javascript for ioBroker that calculates power values [kW] out of yield values [kWh]
 This script is intended to enhance solar and energy monitoring.
 It runs inside the ioBroker Javacript engine.
 
 Most energy meters and solar monitoring systems provide a total-prodction data value [kWh].
-From this value, productions for certain time intervalls [kWh] and average power values [kW] can be derived derived.
+From this value, productions for certain time intervalls [kWh] and average power values [kW] can be derived.
 
 The script takes a user definalbe nuber of energy meter yield tracks and stores new values for
 - monthly production/consumption [kWh]
